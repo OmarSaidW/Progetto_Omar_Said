@@ -1,0 +1,265 @@
+/* =========================================
+   style.css
+   Custom Le Figaro Branding (Bootstrap-Safe)
+   ========================================= */
+/* Example of what Bootstrap does automatically */
+
+
+/* 1. Global Typography */
+body {
+    font-family: Georgia, serif;
+    color: #113867;
+
+}
+
+/* 2. Custom Brand Colors
+   (We use custom names instead of overwriting .text-primary or .border-primary) */
+.text-figaro-blue {
+    color: #113867;
+}
+
+.border-figaro-blue {
+    border-color: #113867 !important;
+    /* Used alongside Bootstrap's .border classes */
+}
+
+#top-menu {
+    font-size: 14px;
+}
+
+/* 3. Logo  */
+.figaro-logo {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    font-weight: 900;
+    color: #113867;
+    letter-spacing: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-ans {
+    margin-left: 8px;
+    line-height: 1;
+}
+
+.logo-ans .num {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.logo-ans .text {
+    font-size: 8px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: -4px;
+}
+
+/* 4. Subscription Button Component */
+.btn-subscribe {
+    background-color: #fabc27;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-subscribe .small {
+    font-size: 11px;
+}
+
+/* Adding focus states for accessibility */
+.btn-subscribe:hover,
+.btn-subscribe:focus {
+    background-color: #eca91b;
+    outline: none;
+}
+
+/* 5. Custom Navigation & Article Styles */
+.nav-link-custom {
+    color: #123456 !important;
+}
+
+.bottom-nav-container {
+    font-size: 14px;
+}
+
+.main-article-title {
+    color: #113867;
+    font-size: 28px;
+}
+
+.image-placeholder-main {
+    height: 350px;
+    background-image: url('placeholder-trump.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.image-placeholder-sub {
+    height: 300px;
+    background-image: url('placeholder-map.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.flash-feed-container {
+    font-size: 14px;
+}
+
+.flash-time {
+    min-width: 40px;
+}
+
+/* 6. Minimal Bootstrap Component Re-implementations */
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.badge {
+    display: inline-block;
+    padding: .35em .65em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.rounded-pill {
+    border-radius: 50rem !important;
+}
+
+/* 7. Typography and Font Commands (Moved from HTML) */
+.fw-semibold,
+.fw-bold {
+    font-weight: bold;
+}
+
+.fst-italic {
+    font-style: italic;
+}
+
+
+
+.fs-1 {
+    font-size: 2.5rem;
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+.fs-3 {
+    font-size: 1.75rem;
+}
+
+.fs-4 {
+    font-size: 1.5rem;
+}
+
+.fs-5 {
+    font-size: 1.25rem;
+}
+
+.fs-6 {
+    font-size: 1rem;
+}
+
+.small {
+    font-size: 0.875em;
+}
+
+.nav-item-text {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.article-title {
+    color: #113867;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.section-title {
+    color: #0d6efd;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.flash-title {
+    color: #dc3545;
+    font-weight: bold;
+    margin: 0;
+}
+
+.alert-label {
+    font-size: 0.875em;
+    color: #6c757d;
+}
+
+.image-placeholder-main {
+    height: 350px;
+    background-image: url('placeholder-trump.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.image-placeholder-sub {
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image-placeholder-mid {
+    height: 200px;
+    align-self: auto;
+}
+
+.text-right-under {
+    text-align: justify-left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.image-description-main {
+    font-size: 10px;
+    color: #113867;
+    text-align: center;
+
+}
+
+
+.article-title-smaller {
+    color: #113867;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.abbonati-box {
+    font-size: 30px;
+    border: 8px solid #83bcdf;
+    padding: 20px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#fine {
+    background-color: rgb(42, 50, 114);
+    color: white;
+}

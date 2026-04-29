@@ -16,6 +16,8 @@ body {
    (We use custom names instead of overwriting .text-primary or .border-primary) */
 .text-figaro-blue {
     color: #113867;
+    font-family: Georgia, serif;
+
 }
 
 .border-figaro-blue {
@@ -31,7 +33,7 @@ body {
 .figaro-logo {
     font-family: Georgia, serif;
     font-size: 35px;
-    font-weight: 900;
+    font-weight: bolder;
     color: #113867;
     letter-spacing: -2px;
     display: flex;
@@ -90,16 +92,10 @@ body {
 
 .image-placeholder-main {
     height: 350px;
-    background-image: url('placeholder-trump.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 .image-placeholder-sub {
-    height: 300px;
-    background-image: url('placeholder-map.jpg');
-    background-size: cover;
-    background-position: center;
+    height: 100px;
 }
 
 .flash-feed-container {
@@ -110,75 +106,9 @@ body {
     min-width: 40px;
 }
 
-/* 6. Minimal Bootstrap Component Re-implementations */
-.card {
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .25rem;
-}
-
-.card-body {
-    padding: 1.25rem;
-}
-
-.shadow-sm {
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
-}
-
-.badge {
-    display: inline-block;
-    padding: .35em .65em;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25rem;
-}
-
-.rounded-pill {
-    border-radius: 50rem !important;
-}
-
-/* 7. Typography and Font Commands (Moved from HTML) */
-.fw-semibold,
-.fw-bold {
-    font-weight: bold;
-}
-
-.fst-italic {
-    font-style: italic;
-}
 
 
 
-.fs-1 {
-    font-size: 2.5rem;
-}
-
-.fs-2 {
-    font-size: 2rem;
-}
-
-.fs-3 {
-    font-size: 1.75rem;
-}
-
-.fs-4 {
-    font-size: 1.5rem;
-}
-
-.fs-5 {
-    font-size: 1.25rem;
-}
-
-.fs-6 {
-    font-size: 1rem;
-}
-
-.small {
-    font-size: 0.875em;
-}
 
 .nav-item-text {
     font-weight: 600;
@@ -209,26 +139,14 @@ body {
     color: #6c757d;
 }
 
-.image-placeholder-main {
-    height: 350px;
-    background-image: url('placeholder-trump.jpg');
-    background-size: cover;
-    background-position: center;
-}
 
-.image-placeholder-sub {
-    height: 100px;
-    background-size: cover;
-    background-position: center;
-}
 
 .image-placeholder-mid {
     height: 200px;
-    align-self: auto;
 }
 
 .text-right-under {
-    text-align: justify-left;
+    text-align: left;
     font-size: 15px;
     font-weight: bold;
 }
@@ -262,4 +180,165 @@ p {
 #fine {
     background-color: rgb(42, 50, 114);
     color: white;
+}
+
+
+
+
+/* Classi per Placeholder suddivise per dimensione */
+
+/* --- placeholder-355x195 --- */
+/* Mobile (Default) */
+.placeholder-355x195 {
+    background-image: url('https://placehold.co/265x200.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .placeholder-355x195 {
+        background-image: url('https://placehold.co/265x200.png');
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .placeholder-355x195 {
+        background-image: url('https://placehold.co/400x300.png');
+    }
+}
+
+/* --- placeholder-260x100 --- */
+/* Mobile (Default) */
+.placeholder-260x100 {
+    background-image: url('https://placehold.co/500x100.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .placeholder-260x100 {
+        background-image: url('https://placehold.co/500x100.png');
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .placeholder-260x100 {
+        background-image: url('https://placehold.co/260x100.png');
+    }
+}
+
+/* --- placeholder-400x100 --- */
+/* Mobile (Default) */
+.placeholder-400x100 {
+    background-image: url('https://placehold.co/190x100.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .placeholder-400x100 {
+        background-image: url('https://placehold.co/190x100.png');
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .placeholder-400x100 {
+        background-image: url('https://placehold.co/190x100.png');
+    }
+}
+
+/* --- placeholder-130x200 --- */
+/* Mobile (Default) */
+.placeholder-130x200 {
+    background-image: url('https://placehold.co/250x200.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .placeholder-130x200 {
+        background-image: url('https://placehold.co/97x150.png');
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .placeholder-130x200 {
+        background-image: url('https://placehold.co/130x200.png');
+    }
+}
+
+/* --- placeholder-800x350 --- */
+/* Mobile (Default) */
+.placeholder-800x350 {
+    background-image: url('https://placehold.co/550x350.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .placeholder-800x350 {
+        background-image: url('https://placehold.co/550x350.png');
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .placeholder-800x350 {
+        background-image: url('https://placehold.co/825x525.png');
+    }
+}
+
+
+
+/* --- placeholder-200x350 --- */
+/* Mobile (Default) */
+.placeholder-200x350 {
+    background-image: url('https://placehold.co/500x350.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .placeholder-200x350 {
+        background-image: url('https://placehold.co/200x350.png');
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .placeholder-200x350 {
+        background-image: url('https://placehold.co/200x350.png');
+    }
+}
+
+/* --- placeholder-235x350 --- */
+/* Mobile (Default) */
+.placeholder-235x350 {
+    background-image: url('https://placehold.co/500x350.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .placeholder-235x350 {
+        background-image: url('https://placehold.co/176x262.png');
+    }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .placeholder-235x350 {
+        background-image: url('https://placehold.co/235x350.png');
+    }
 }

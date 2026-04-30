@@ -1,35 +1,21 @@
-/* =========================================
-   style.css
-   Custom Le Figaro Branding (Bootstrap-Safe)
-   ========================================= */
-/* Example of what Bootstrap does automatically */
-
-
-/* 1. Global Typography */
+/*Per la regola generale*/
 body {
     font-family: Georgia, serif;
     color: #113867;
+    font-size: 14px;
 
 }
 
-/* 2. Custom Brand Colors
-   (We use custom names instead of overwriting .text-primary or .border-primary) */
-.text-figaro-blue {
-    color: #113867;
-    font-family: Georgia, serif;
-
+h6 {
+    font-size: 12px;
 }
 
-.border-figaro-blue {
-    border-color: #113867 !important;
-    /* Used alongside Bootstrap's .border classes */
-}
-
+/*bottoni alti*/
 #top-menu {
     font-size: 14px;
 }
 
-/* 3. Logo  */
+/* Logo */
 .figaro-logo {
     font-family: Georgia, serif;
     font-size: 35px;
@@ -41,63 +27,32 @@ body {
     align-items: center;
 }
 
-.logo-ans {
-    margin-left: 8px;
-    line-height: 1;
-}
 
-.logo-ans .num {
-    font-size: 35px;
-    font-weight: 900;
-}
-
-.logo-ans .text {
-    font-size: 8px;
-    font-weight: bold;
-    text-align: right;
-    margin-top: -4px;
-}
-
-/* 4. Subscription Button Component */
+/* 4. Bottono giallo iscrizione */
 .btn-subscribe {
     background-color: #fabc27;
     border: none;
     transition: background-color 0.2s ease-in-out;
+    font-size: 12px;
 }
 
 .btn-subscribe .small {
-    font-size: 11px;
+    font-size: 10px;
 }
 
-/* Adding focus states for accessibility */
+/* x comportamento con mouse sopra ( o selezione tastiera) */
 .btn-subscribe:hover,
 .btn-subscribe:focus {
     background-color: #eca91b;
     outline: none;
 }
 
-/* 5. Custom Navigation & Article Styles */
+/* Sempre per bottoni alti */
 .nav-link-custom {
     color: #123456 !important;
 }
 
-.bottom-nav-container {
-    font-size: 14px;
-}
-
-.main-article-title {
-    color: #113867;
-    font-size: 28px;
-}
-
-.image-placeholder-main {
-    height: 350px;
-}
-
-.image-placeholder-sub {
-    height: 100px;
-}
-
+/*notizie flash (destra)*/
 .flash-feed-container {
     font-size: 14px;
 }
@@ -106,6 +61,11 @@ body {
     min-width: 40px;
 }
 
+.flash-title {
+    color: #dc3545;
+    font-weight: bold;
+    margin: 0;
+}
 
 
 
@@ -128,23 +88,27 @@ body {
     margin-bottom: 1rem;
 }
 
-.flash-title {
-    color: #dc3545;
-    font-weight: bold;
-    margin: 0;
-}
+
 
 .alert-label {
     font-size: 0.875em;
     color: #6c757d;
 }
 
-
+/*Forniscono altezza minima ai placeholder*/
+.image-placeholder-main {
+    height: 350px;
+}
 
 .image-placeholder-mid {
     height: 200px;
 }
 
+.image-placeholder-sub {
+    height: 100px;
+}
+
+/*testi*/
 .text-right-under {
     text-align: left;
     font-size: 15px;
@@ -166,6 +130,7 @@ body {
     text-align: center;
 }
 
+/*box notizie preferite*/
 .abbonati-box {
     font-size: 30px;
     border: 8px solid #83bcdf;

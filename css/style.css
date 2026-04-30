@@ -192,7 +192,7 @@ p {
 .placeholder-355x195 {
     background-image: url('https://placehold.co/265x200.png');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Tablet */
@@ -203,7 +203,7 @@ p {
 }
 
 /* Desktop */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .placeholder-355x195 {
         background-image: url('https://placehold.co/400x300.png');
     }
@@ -212,15 +212,15 @@ p {
 /* --- placeholder-260x100 --- */
 /* Mobile (Default) */
 .placeholder-260x100 {
-    background-image: url('https://placehold.co/500x100.png');
+    background-image: url('https://placehold.co/260x100.png');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
     .placeholder-260x100 {
-        background-image: url('https://placehold.co/500x100.png');
+        background-image: url('https://placehold.co/260x100.png');
     }
 }
 
@@ -236,7 +236,7 @@ p {
 .placeholder-400x100 {
     background-image: url('https://placehold.co/190x100.png');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Tablet */
@@ -256,9 +256,9 @@ p {
 /* --- placeholder-130x200 --- */
 /* Mobile (Default) */
 .placeholder-130x200 {
-    background-image: url('https://placehold.co/250x200.png');
+    background-image: url('https://placehold.co/130x200.png');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Tablet */
@@ -280,7 +280,7 @@ p {
 .placeholder-800x350 {
     background-image: url('https://placehold.co/550x350.png');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Tablet */
@@ -304,7 +304,7 @@ p {
 .placeholder-200x350 {
     background-image: url('https://placehold.co/500x350.png');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Tablet */
@@ -324,15 +324,15 @@ p {
 /* --- placeholder-235x350 --- */
 /* Mobile (Default) */
 .placeholder-235x350 {
-    background-image: url('https://placehold.co/500x350.png');
+    background-image: url('https://placehold.co/235x350.png');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
     .placeholder-235x350 {
-        background-image: url('https://placehold.co/176x262.png');
+        background-image: url('https://placehold.co/235x350.png');
     }
 }
 

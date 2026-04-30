@@ -307,3 +307,10 @@ p {
         background-image: url('https://placehold.co/235x350.png');
     }
 }
+
+/* Aggiunto perchè manca la gestione dinamica del bordo dentro il bootstrap 5  */
+@media (min-width: 992px) {
+    .border-lg-end {
+        border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    }
+}

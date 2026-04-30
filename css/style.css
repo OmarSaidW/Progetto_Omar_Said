@@ -256,7 +256,7 @@ p {
 /* --- placeholder-130x200 --- */
 /* Mobile (Default) */
 .placeholder-130x200 {
-    background-image: url('https://placehold.co/130x200.png');
+    background-image: url('https://placehold.co/97x150.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -264,7 +264,7 @@ p {
 /* Tablet */
 @media (min-width: 768px) {
     .placeholder-130x200 {
-        background-image: url('https://placehold.co/97x150.png');
+        background-image: url('https://placehold.co/130x200.png');
     }
 }
 
@@ -302,7 +302,7 @@ p {
 /* --- placeholder-200x350 --- */
 /* Mobile (Default) */
 .placeholder-200x350 {
-    background-image: url('https://placehold.co/500x350.png');
+    background-image: url('https://placehold.co/200x350.png');
     background-position: center;
     background-repeat: no-repeat;
 }
